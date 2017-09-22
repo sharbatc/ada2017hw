@@ -5,4 +5,4 @@ This repository consists of homework assignments for the course on Applied Data 
 ### Team members
 
 * Sharbatanu Chatterjee
-* Freyr Sverinsson 
+* Freyr Sverrisson 
