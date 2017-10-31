@@ -17,7 +17,7 @@ The causes for neurodegenerative diseases are mostly unknown but their prevalenc
 
 # Dataset
 The [Parkinson's Progression Markers Initiative (PPMI) dataset](http://www.ppmi-info.org/) includes different types of biological data available to the scientific community, included advanced imaging data such as rs-fMRI and anatomical imaging. From the PPMI website it is possible to download the data for each type of imaging already divided in folders corresponding to each patient. The data is anonymised. In particular we are interested to access to anatomical and resting-state-fMRI data. It is necessary to apply for accessing the data. Since we have already been using it, we have already the access to the data, but we would make a new access request with a new proposed analysis specific to this project.
-The processing pipeline could be applied, for example following the processing stream proposed by the [openfMRI project](https://openfmri.org/data-processing-stream/  https://github.com/poldrack/openfmri)
+The processing pipeline could be applied, for example following the processing stream proposed by the [openfMRI project](https://openfmri.org/data-processing-stream/) and also [here](https://github.com/poldrack/openfmri)
 
 The data consists of folders containing DICOM files corresponding to the resting fMRI for both control and Parkinson's Disease patients. There are around 170 fMRI images for patients and 20 for controls.
 
