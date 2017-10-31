@@ -17,13 +17,15 @@ The causes for neurodegenerative diseases are mostly unknown but their prevalenc
 * Can we identify biomarkers of Parkinson disease progression?
 
 # Dataset
-The [Parkinson's Progression Markers Initiative (PPMI) dataset](http://www.ppmi-info.org/) includes different types of biological data available to the scientific community, included advanced imaging data such as rs-fMRI and anatomical imaging. From the PPMI website it is possible to download the data for each type of imaging already divided in folders corresponding to each patient. The data is anonymised. In particular we are interested to access to anatomical and rs-fMRI data. It is necessary to apply for accessing the data. Since we have already been using it, we have already the access to the data, but we would make a new access request with a new proposed analysis specific to this project.
-We already know how to process the data (in matlab) and the same processing pipeline could be applied in python, for example following the processing stream proposed by the [openfMRI project](https://openfmri.org/data-processing-stream/  https://github.com/poldrack/openfmri)
+The [Parkinson's Progression Markers Initiative (PPMI) dataset](http://www.ppmi-info.org/) includes different types of biological data available to the scientific community, included advanced imaging data such as rs-fMRI and anatomical imaging. From the PPMI website it is possible to download the data for each type of imaging already divided in folders corresponding to each patient. The data is anonymised. In particular we are interested to access to anatomical and resting-state-fMRI data. It is necessary to apply for accessing the data. Since we have already been using it, we have already the access to the data, but we would make a new access request with a new proposed analysis specific to this project.
+The processing pipeline could be applied, for example following the processing stream proposed by the [openfMRI project](https://openfmri.org/data-processing-stream/  https://github.com/poldrack/openfmri)
 
 The data consists of folders containing DICOM files corresponding to the resting fMRI for both control and Parkinson's Disease patients. 
+
 # A list of internal milestones up until project milestone 2
-* The preprocessing includes some steps such as the conversion from DICOM to nifti format, the realignment of fMRI data, co-registeration to anatomical image, normalisation to the standard MNI space, extraction of time courses and computation of the connection matrix 
-* Thinking of the machine learning methods that can be applied to infer about the importance of areas in 
+* The preprocessing includes some steps such as the conversion from DICOM to nifti format, the realignment of fMRI data, co-registeration to anatomical image, normalisation to the standard MNI space, extraction of time courses and computation of the connection matrix.
+* The final output of the processing is a connectivity matrix (can be seen as an undirected graph) where each element corresponds to the correlation between the activity of brain regions (the regions depends on the parcellation scheme could be either based on anatomy of the brain or computed through ICA).
+* Thinking of the machine learning methods that can be applied to infer about the importance of areas in the brain.
 
 # Questions for TAs
 
