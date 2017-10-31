@@ -22,9 +22,9 @@ We already know how to process the data (in matlab) and the same processing pipe
 
 The data consists of folders containing DICOM files corresponding to the resting fMRI for both control and Parkinson
 
-A list of internal milestones up until project milestone 2
-1. The preprocessing includes some basic steps such as the conversion from DICOM to nifti format, the realignment of fMRI data, co-registeration to anatomical image, normalisation to the standard MNI space, extraction of time courses and computation of the connection matrix 
-2. Thinking of the machine learning methods that can be applied to infer about the importance of areas in 
+# A list of internal milestones up until project milestone 2
+* The preprocessing includes some basic steps such as the conversion from DICOM to nifti format, the realignment of fMRI data, co-registeration to anatomical image, normalisation to the standard MNI space, extraction of time courses and computation of the connection matrix 
+* Thinking of the machine learning methods that can be applied to infer about the importance of areas in 
 
 # Questions for TAs
 
