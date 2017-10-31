@@ -6,7 +6,6 @@ As average human life span has been increasing in the last few years, the threat
 
 The causes for neurodegenerative diseases are mostly unknown but their prevalence is on a steep rise all over the world and people are getting affected earlier than ever. One major disease that is prevalent throughout the world is Parkinson's disease. Parkinson’s disease is the second most common neurodegenerative disease after Alzheimer’s. It’s most obvious symptoms include shaking, rigidity and difficulty with walking. There is currently no cure for Parkinson’s but there are ways of keeping it’s symptoms down and delaying it’s progression, for example with deep brain stimulation. These methods are most effective when patients begin treatment as early as possible and therefore powerful diagnostic methods are essential. This project aims to help in diagnosis of neurodegenerative diseases in general and Parkinson's Disease in particular. The method could be easily reproduced by clinics in various places around the world and can also be applied for other diseases. Neuroscience research can be progressed in this way. 
 
-
 <a name="References"></a> 
 ### References
 
@@ -28,4 +27,4 @@ The data consists of folders containing DICOM files corresponding to the resting
 * Thinking of the machine learning methods that can be applied to infer about the importance of areas in the brain.
 
 # Questions for TAs
-
+* Is there a way to expand the dataset because we probably have less control subjects vis à vis the number of patients.
