@@ -13,10 +13,15 @@ This project aims to think about the rise of populism, especially right wing pop
 * Can we present the data in a way that might prevent the rise of populism?
 
 # Dataset
-We have an overview of the dataset from the documentation mentioned [here](http://data.gdeltproject.org/documentation/GDELT-Data_Format_Codebook.pdf). An example usage of the same is mentioned in [here](http://data.gdeltproject.org/documentation/ISA.2013.GDELT.pdf). 
+We have an overview of the dataset from the documentation mentioned [here](http://data.gdeltproject.org/documentation/GDELT-Data_Format_Codebook.pdf). An example usage of the same is mentioned in [here](http://data.gdeltproject.org/documentation/ISA.2013.GDELT.pdf). The [UCDP dataset](http://ucdp.uu.se/downloads/) based on per country basis is what we are planning to think of as a ground truth for conflicts. They can then be correlated to what is being shown in the different branches of the news to see what each news source chooses to show and who or what they choose to blame in the process (from the 'tone' of the news article. The tone is a variable in the GDELT dataset).
 
 # A list of internal milestones up until project milestone 2
-* Take one particular example of populism. Possibly the Brexit campaign.
+* Clean the dataset to see what particular event might we focus on at first. 
+* Display and find out an event which might be interpreted differently depending on the source of the news. 
+* Possibly see where one version of the news is concentrated more and try to comment and correlate that to the political fate of that place. 
+* Find out one prototype news event and places that work.
+
 
 # Questions for TAa
-Add here some questions you have for us, in general or project-specific.
+* The data set seems big and extensive. Can we reduce it to a time period or space where it might showcase our aims? 
+* Is there any way to think what the 'tone' might be used as apart from showing how and in what direction some news article is biased?
