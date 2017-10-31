@@ -26,4 +26,4 @@ We have an overview of the dataset from the documentation mentioned [here](http:
 * The data set seems big and extensive. Can we reduce it to a time period or space where it might showcase our aims? 
 * Is there any way to think what the 'tone' might be used as apart from showing how and in what direction some news article is biased?
 
-![Alt Text](https://upload.wikimedia.org/wikipedia/commons/5/56/Parasagittal_MRI_of_human_head_in_patient_with_benign_familial_macrocephaly_prior_to_brain_injury_%28ANIMATED%29.gif)
+![Alt Text](https://github.com/sharbatc/ada2017hw/blob/master/project/mri.gif)
