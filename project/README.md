@@ -21,6 +21,8 @@ The processing pipeline could be applied, for example following the processing s
 
 The data consists of folders containing DICOM files corresponding to the resting fMRI for both control and Parkinson's Disease patients. There are around 170 fMRI images for patients and 20 for controls.
 
+The project is inspired by one of the member's major research interest, gained from experience which comes from the [Medical Image Processing lab](https://miplab.epfl.ch/) at EPFL.
+
 # A list of internal milestones up until project milestone 2
 * The preprocessing includes some steps such as the conversion from DICOM to nifti format, the realignment of fMRI data, co-registeration to anatomical image, normalisation to the standard MNI space, extraction of time courses and computation of the connection matrix.
 * The final output of the processing is a connectivity matrix (can be seen as an undirected graph) where each element corresponds to the correlation between the activity of brain regions (the regions depends on the parcellation scheme could be either based on anatomy of the brain or computed through ICA).
