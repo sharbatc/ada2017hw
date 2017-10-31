@@ -22,6 +22,6 @@ We have an overview of the dataset from the documentation mentioned [here](http:
 * Find out one prototype news event and places that work.
 
 
-# Questions for TAa
+# Questions for TAs
 * The data set seems big and extensive. Can we reduce it to a time period or space where it might showcase our aims? 
 * Is there any way to think what the 'tone' might be used as apart from showing how and in what direction some news article is biased?
