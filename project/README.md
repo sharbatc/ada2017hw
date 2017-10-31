@@ -26,9 +26,9 @@ The project is inspired by one of the member's major research interest, gained f
 # A list of internal milestones up until project milestone 2
 * Preprocessing: conversion from DICOM to nifti format, realignment of fMRI data, co-registeration to anatomical image, normalisation to the standard MNI space, extraction of time courses based on a parcellation scheme (either based on the anatomy of the brain or computed through ICA).
 * Construction of a connectivity matrix by computing the correlation coefficients between time courses.
-The connectivity matrix can be seen as an undirected graph where nodes correspond to brain regions and edges to funcitonal connections, that are the correlations between activities of brain regions. 
+The connectivity matrix can be seen as an undirected graph where nodes correspond to brain regions and edges to functional connections, that are the correlations between activities of brain regions. 
 * Thinking of the machine learning methods that can be applied to infer about the importance of connections between areas in the brain in order to find meaningful biomarkers that can predict the disease.
 
 # Questions for TAs
-* Is there a way to expand the dataset because we probably have less control subjects vis à vis the number of patients?
+* Is there a way to solve the problem of unbalanced dataset because we have less control subjects vis à vis the number of patients?
 * Can we use some cluster to work with the data as it is quite heavy to work with our computers?
