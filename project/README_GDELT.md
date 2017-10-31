@@ -1,5 +1,5 @@
-# 
-![Alt Text](https://github.com/sharbatc/ada2017hw/blob/master/project/mri.gif)
+# I'm Only Human
+
 # Abstract
 >[I'm only human after all; Don't put your blame on me...](https://en.wikipedia.org/wiki/Human_(Rag%27n%27Bone_Man_song))
 
@@ -26,3 +26,4 @@ We have an overview of the dataset from the documentation mentioned [here](http:
 * The data set seems big and extensive. Can we reduce it to a time period or space where it might showcase our aims? 
 * Is there any way to think what the 'tone' might be used as apart from showing how and in what direction some news article is biased?
 
+![Alt Text](https://github.com/sharbatc/ada2017hw/blob/master/project/mri.gif)
