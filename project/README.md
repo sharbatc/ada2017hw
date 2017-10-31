@@ -27,4 +27,5 @@ The data consists of folders containing DICOM files corresponding to the resting
 * Thinking of the machine learning methods that can be applied to infer about the importance of areas in the brain.
 
 # Questions for TAs
-* Is there a way to expand the dataset because we probably have less control subjects vis à vis the number of patients.
+* Is there a way to expand the dataset because we probably have less control subjects vis à vis the number of patients?
+* Can we use some cluster to work with the data as it is quite heavy to work with our computers?
