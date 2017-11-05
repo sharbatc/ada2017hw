@@ -24,10 +24,11 @@ The data consists of folders containing DICOM files corresponding to the resting
 The project is inspired by one of the member's major research interest, gained from experience which comes from the [Medical Image Processing lab](https://miplab.epfl.ch/) at EPFL.
 
 # A list of internal milestones up until project milestone 2
-* The preprocessing includes some steps such as the conversion from DICOM to nifti format, the realignment of fMRI data, co-registeration to anatomical image, normalisation to the standard MNI space, extraction of time courses and computation of the connection matrix.
-* The final output of the processing is a connectivity matrix (can be seen as an undirected graph) where each element corresponds to the correlation between the activity of brain regions (the regions depends on the parcellation scheme could be either based on anatomy of the brain or computed through ICA).
-* Thinking of the machine learning methods that can be applied to infer about the importance of areas in the brain.
+* Preprocessing: conversion from DICOM to nifti format, realignment of fMRI data, co-registeration to anatomical image, normalisation to the standard MNI space, extraction of time courses based on a parcellation scheme (either based on the anatomy of the brain or computed through ICA).
+* Construction of a connectivity matrix by computing the correlation coefficients between time courses.
+The connectivity matrix can be seen as an undirected graph where nodes correspond to brain regions and edges to functional connections, that are the correlations between activities of brain regions. 
+* Thinking of the machine learning methods that can be applied to infer about the importance of connections between areas in the brain in order to find meaningful biomarkers that can predict the disease.
 
 # Questions for TAs
-* Is there a way to expand the dataset because we probably have less control subjects vis à vis the number of patients?
+* Is there a way to solve the problem of unbalanced dataset because we have less control subjects vis à vis the number of patients?
 * Can we use some cluster to work with the data as it is quite heavy to work with our computers?
