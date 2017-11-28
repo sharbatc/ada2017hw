@@ -24,7 +24,7 @@ The data consists of folders containing DICOM files corresponding to the resting
 The project is inspired by one of the member's major research interest, gained from experience which comes from the [Medical Image Processing lab](https://miplab.epfl.ch/) at EPFL.
 
 # A list of internal milestones up until project milestone 2
-* Preprocessing: conversion from DICOM to nifti format, realignment of fMRI data, co-registeration to anatomical image, normalisation to the standard MNI space, extraction of time courses based on a parcellation scheme (either based on the anatomy of the brain or computed through ICA).
+* Preprocessing: conversion from DICOM to nIfTi format, realignment of fMRI data, co-registeration to anatomical image, normalisation to the standard MNI space, smoothing, extraction of time courses (the values of each voxel over time) based on a parcellation scheme (either based on the anatomy of the brain or computed through ICA).
 * Construction of a connectivity matrix by computing the correlation coefficients between time courses.
 The connectivity matrix can be seen as an undirected graph where nodes correspond to brain regions and edges to functional connections, that are the correlations between activities of brain regions. 
 * Thinking of the machine learning methods that can be applied to infer about the importance of connections between areas in the brain in order to find meaningful biomarkers that can predict the disease.
@@ -32,3 +32,25 @@ The connectivity matrix can be seen as an undirected graph where nodes correspon
 # Questions for TAs
 * Is there a way to solve the problem of unbalanced dataset because we have less control subjects vis à vis the number of patients?
 * Can we use some cluster to work with the data as it is quite heavy to work with our computers?
+
+# Data collection and description (Milestone 2)
+For this first milestone, the following tasks were completed:
+* File format conversion for all the images
+* Organization of the data in the standard BIDS (Brain Imaging Data Structure)
+* Examination of converted data and metadata in a python notebook (M2-data\_inspection)
+* Building a preprocessing pipeline in a python notebook (M2-preprocessing) and run it on an example subject.
+
+During the format conversion, some images were duplicated and some others were not converted at all.
+Among the subjects that were correctly converted in the new format, 17% belong to the control group.
+We are still considering the idea of enrich the control data with external subjects, but for the moment we prefer to keep working on the data we have and decide once we will know the performance of our classification. 
+
+Building a preprocessing pipeline in Python was not trivial and required more time than expected. 
+At the moment, it is working on the example subject but the normalization step has still to be added. 
+The workflow built with the Nypipe library allow us to easily extend the preprocessing to all the subjects by adding their names to the subject list. 
+
+The next question is: once the time courses are extracted, how are we going to process them?
+We want to construct a connectivity matrix by computing the correlation among each voxel signal or the average signal for a group of voxels. The first case results in a very big matrix. If we group the voxels we could rely on existing brain parcellations or build our own parcels through clustering. 
+Once the connectivity matrix has been computed, we will try differt classification algorithms. For example...
+
+Furthermore, we would like to try a second approach based on Convolutional Neural Networks of the time courses.
+
