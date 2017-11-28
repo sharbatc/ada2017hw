@@ -4,9 +4,9 @@
 
 As average human life span has been increasing in the last few years, the threat of neurodegenerative diseases loom large. It has now become a major health problem in the world with annual costs in the USA associated with neurological diseases are around 800 billion dollars, 100 billion more than the US military budget, as mentioned [here](#References).
 
-The causes for neurodegenerative diseases are mostly unknown but their prevalence is on a steep rise all over the world and people are getting affected earlier than ever. One major disease that is prevalent throughout the world is Parkinson's disease. Parkinson’s disease is the second most common neurodegenerative disease after Alzheimer’s. It’s most obvious symptoms include shaking, rigidity and difficulty with walking. There is currently no cure for Parkinson’s but there are ways of keeping its symptoms down and delaying its progression, for example with deep brain stimulation. These methods are most effective when patients begin treatment as early as possible and therefore powerful diagnostic methods are essential. This project aims to help in diagnosis of neurodegenerative diseases in general and Parkinson's Disease in particular. The method could be easily reproduced by clinics in various places around the world and can also be applied for other diseases. Neuroscience research can be progressed in this way. 
+The causes for neurodegenerative diseases are mostly unknown but their prevalence is on a steep rise all over the world and people are getting affected earlier than ever. One major disease that is prevalent throughout the world is Parkinson's disease. Parkinson’s disease is the second most common neurodegenerative disease after Alzheimer’s. It’s most obvious symptoms include shaking, rigidity and difficulty with walking. There is currently no cure for Parkinson’s but there are ways of keeping its symptoms down and delaying its progression, for example with deep brain stimulation. These methods are most effective when patients begin treatment as early as possible and therefore powerful diagnostic methods are essential. This project aims to help in diagnosis of neurodegenerative diseases in general and Parkinson's Disease in particular. The method could be easily reproduced by clinics in various places around the world and can also be applied for other diseases. Neuroscience research can be progressed in this way.
 
-<a name="References"></a> 
+<a name="References"></a>
 ### References
 
 * Gooch, Clifton L., Etienne Pracht, and Amy R. Borenstein. ["The burden of neurological disease in the United States: a summary report and call to action."](https://www.ncbi.nlm.nih.gov/pubmed/28198092) Annals of neurology 81.4 (2017): 479-484.
@@ -26,7 +26,7 @@ The project is inspired by one of the member's major research interest, gained f
 # A list of internal milestones up until project milestone 2
 * Preprocessing: conversion from DICOM to nIfTi format, realignment of fMRI data, co-registeration to anatomical image, normalisation to the standard MNI space, smoothing, extraction of time courses (the values of each voxel over time) based on a parcellation scheme (either based on the anatomy of the brain or computed through ICA).
 * Construction of a connectivity matrix by computing the correlation coefficients between time courses.
-The connectivity matrix can be seen as an undirected graph where nodes correspond to brain regions and edges to functional connections, that are the correlations between activities of brain regions. 
+The connectivity matrix can be seen as an undirected graph where nodes correspond to brain regions and edges to functional connections, that are the correlations between activities of brain regions.
 * Thinking of the machine learning methods that can be applied to infer about the importance of connections between areas in the brain in order to find meaningful biomarkers that can predict the disease.
 
 # Questions for TAs
@@ -42,15 +42,15 @@ For this first milestone, the following tasks were completed:
 
 During the format conversion, some images were duplicated and some others were not converted at all.
 Among the subjects that were correctly converted in the new format, 17% belong to the control group.
-We are still considering the idea of enrich the control data with external subjects, but for the moment we prefer to keep working on the data we have and decide once we will know the performance of our classification. 
+We are still considering the idea of trying to enrich the control data with external subjects, but for the moment we prefer to keep working on the data we have and decide once we will know the performance of our classification.
 
-Building a preprocessing pipeline in Python was not trivial and required more time than expected. 
-At the moment, it is working on the example subject but the normalization step has still to be added. 
-The workflow built with the Nypipe library allow us to easily extend the preprocessing to all the subjects by adding their names to the subject list. 
+Building a preprocessing pipeline in Python was not trivial and required more time than expected.
+At the moment, it is working on the example subject but the normalization step has still to be added.
+The workflow built with the Nypipe library allow us to easily extend the preprocessing to all the subjects by adding their names to the subject list.
 
 The next question is: once the time courses are extracted, how are we going to process them?
-We want to construct a connectivity matrix by computing the correlation among each voxel signal or the average signal for a group of voxels. The first case results in a very big matrix. If we group the voxels we could rely on existing brain parcellations or build our own parcels through clustering. 
-Once the connectivity matrix has been computed, we will try differt classification algorithms. For example...
 
-Furthermore, we would like to try a second approach based on Convolutional Neural Networks of the time courses.
+We want to construct a connectivity matrix by computing the correlation among each voxel signal or the average signal for a group of voxels. The first case results in a very big matrix. If we group the voxels we could rely on existing brain parcellations or build our own parcels through clustering.
+Once the connectivity matrix has been computed, we will try different classification algorithms. For example, we plan to use SVMs with a suitable kernel to allow for proper classification.
 
+Furthermore, we would like to try a second approach based on Convolutional Neural Networks of the time courses. We believe that the [architecture of the CNN](http://cs231n.github.io/convolutional-networks/) is going to be useful for understanding the images and trying to classify them. The neural inspired architecture is suitable for running on the dataset for fMRI images. We aim to find out features which might serve as markers for future research.
