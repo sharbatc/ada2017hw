@@ -41,7 +41,7 @@ For this first milestone, the following tasks were completed:
 * Building a preprocessing pipeline in a python notebook (M2-preprocessing) and run it on an example subject.
 
 During the format conversion, some images were duplicated and some others were not converted at all.
-Among the subjects that were correctly converted in the new format, ... belong to the PD group, while ... are control.
+Among the subjects that were correctly converted in the new format, 17% belong to the control group.
 We are still considering the idea of enrich the control data with external subjects, but for the moment we prefer to keep working on the data we have and decide once we will know the performance of our classification. 
 
 Building a preprocessing pipeline in Python was not trivial and required more time than expected. 
