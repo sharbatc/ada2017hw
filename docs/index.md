@@ -5,10 +5,12 @@ subtitle: Data Analysis Against Diseases
 use-site-title: true
 ---
 
-{% markdown %}
-   My text with **markdown** syntax
-{% endmarkdown %}
-<!-- Uncomment the following to get blog posts -->
+My text with **markdown** syntax
+
+
+
+<!-- Uncomment the following to get blog posts, not needed for ADA -->
+
 <!-- <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
