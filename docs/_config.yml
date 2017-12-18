@@ -14,10 +14,10 @@ baseurl: "/ada2017hw"
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: DAAD @ada @EPFL
+title: DAAD
 
 # Short description of your site
-description: Using data analysis to combat diseases
+description: Data Analysis Against Diseases
 
 # --- Navigation bar options --- #
 
