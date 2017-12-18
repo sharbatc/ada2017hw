@@ -1,15 +1,12 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Team
+subtitle: The three member powerhouse that powered DAAD
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+This project has been completed by Sharbatanu Chatterjee, Elisabetta Messina and
+Freyr Sverrinsson, of [EPFL](https://www.epfl.ch) as a part of the final project
+of the [Applied Data Analysis](https://www.ada.epfl.ch) course.
 
 ### my history
 
