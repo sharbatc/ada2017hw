@@ -20,7 +20,6 @@ Below, we present the story of our project, starting with the science behind it,
   * [What is Parkinson Disease?](#pd)
   * [Why is it important to use Data Analysis?](#ytho)
 * [Dataset](#thedataset)
-* [Data Analysis](#theanalysis)
 * [A Future Clinic](#afutureclinic)
 
 ---
@@ -45,18 +44,19 @@ Different regions of the brain typically activate together in what neuroscientis
 <a name="thedataset"></a>
 ## Dataset
 ---
-The [Parkinson's Progression Markers Initiative (PPMI) dataset](http://www.ppmi-info.org/) includes different types of biological data available to the scientific community, included advanced imaging data such as rs-fMRI and anatomical imaging. From the PPMI website it is possible to download the data for each type of imaging already divided in folders corresponding to each patient. The data is anonymised. In particular we are interested to access to anatomical and resting-state-fMRI data. It is necessary to apply for accessing the data. Since we have already been using it, we have already the access to the data, but we would make a new access request with a new proposed analysis specific to this project.
+The [Parkinson's Progression Markers Initiative (PPMI) dataset](http://www.ppmi-info.org/) includes different types of biological data available to the scientific community, included advanced imaging data such as resting-state-fMRI and anatomical imaging. From the PPMI website it is possible to download the data for each type of imaging already divided in folders corresponding to each patient. The data is anonymised. In particular we are interested to access to anatomical and resting-state-fMRI data. It is necessary to apply for accessing the data. Since we have already been using it, we have already the access to the data, but we would make a new access request with a new proposed analysis specific to this project.
 The processing pipeline could be applied, for example following the processing stream proposed by the [openfMRI project](https://openfmri.org/data-processing-stream/) and also [here](https://github.com/poldrack/openfmri)
-
----
-<a name="theanalysis"></a>
-## Data Analysis
----
 
 ---
 <a name="afutureclinic"></a>
 ## A Future Clinic
 ---
+Our story now follows us to a clinic, in the not too distant future. The DAAD scientist or Data (Analysis-Against-Diseases) Scientist sees the patient and knows that he or she already has some data on the patient's fMRI. They first look at the anatomical data for a preliminary glance.
+<table align="center">
+  <caption align="bottom">Example of Anatomical Data</caption>
+  <tr><td><img class="image" src = "img/anatomical.png"></td></tr>
+</table>
+
 <!-- Uncomment the following to get blog posts, not needed for ADA -->
 
 <!-- <div class="posts-list">
