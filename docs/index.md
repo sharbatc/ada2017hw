@@ -18,10 +18,12 @@ Unfortunately, what has not come too much into the public view is the use of fMR
 * [What is fMRI?](#fmri)
 * [What is Parkinson Disease?](#pd)
 
-### <a name="fmri"></a>What is fMRI?
+### <a name="fmri"></a>
+### What is fMRI?
 Functional magnetic resonance imaging ([fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging)) is a way to measure brain activity indirectly by using the fact that increase in activity in a region of the brain is often coupled with increase in blood flow to that region. It has been widely used by cognitive neuroscientists and psychologists to examine the neural correlates of higher cognitive functions in humans, such as decision-making, emotion regulation, social interactions and consciousness.
 
-### <a name="pd"></a>What is Parkinson's Disease?
+### <a name="pd"></a>
+### What is Parkinson's Disease?
 Parkinson's disease ([PD](https://en.wikipedia.org/wiki/Parkinson%27s_disease)) is a disease caused by a progressive dying of certain cells in the central nervous system responsible for producing a chemical called dopamine, used to allow brain cells to communicate with each other. Their loss produces great changes in the control of voluntary movements. So, patients start showing symptoms like rigidity, tremor (involuntary shaking) or general difficulties in movements. In advanced stages, behavioural problems like dementia also appear
 
 
