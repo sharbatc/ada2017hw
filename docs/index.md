@@ -9,7 +9,7 @@ use-site-title: true
 
 ## Dataset
 
-<img src="/img/hello_world.jpeg">
+<img src="/img/avatar-icon.png">
 <!-- Uncomment the following to get blog posts, not needed for ADA -->
 
 <!-- <div class="posts-list">
