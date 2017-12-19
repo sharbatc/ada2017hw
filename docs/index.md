@@ -15,17 +15,17 @@ Unfortunately, what has not come too much into the public view is the use of fMR
 >Here, we will focus on [Parkinson's Disease](#pd) (henceforth PD) and show how we can use Data Analysis to help in combating it.
 
 Below, we present the story of our project, starting with the science behind it, leading up to the description of the dataset and onto the data analysis part.
-* [The Science](#thescience)
+* [Science](#thescience)
   * [What is fMRI?](#fmri)
   * [What is Parkinson Disease?](#pd)
   * [Why is it important to use Data Analysis?](#ytho)
-* [The Dataset](#thedataset)
-* [The Analysis](#theanalysis)
+* [Dataset](#thedataset)
+* [Data Analysis](#theanalysis)
 * [A Future Clinic](#afutureclinic)
 
 ---
 <a name="thescience"></a>
-## The Science
+## Science
 ---
 <a name="fmri"></a>
 ### What is fMRI?
@@ -43,19 +43,14 @@ Different regions of the brain typically activate together in what neuroscientis
 
 ---
 <a name="thedataset"></a>
-## The Dataset
+## Dataset
 ---
 The [Parkinson's Progression Markers Initiative (PPMI) dataset](http://www.ppmi-info.org/) includes different types of biological data available to the scientific community, included advanced imaging data such as rs-fMRI and anatomical imaging. From the PPMI website it is possible to download the data for each type of imaging already divided in folders corresponding to each patient. The data is anonymised. In particular we are interested to access to anatomical and resting-state-fMRI data. It is necessary to apply for accessing the data. Since we have already been using it, we have already the access to the data, but we would make a new access request with a new proposed analysis specific to this project.
 The processing pipeline could be applied, for example following the processing stream proposed by the [openfMRI project](https://openfmri.org/data-processing-stream/) and also [here](https://github.com/poldrack/openfmri)
 
 ---
-<a name="thedataset"></a>
-## The Dataset
----
-
----
 <a name="theanalysis"></a>
-## The Analysis
+## Data Analysis
 ---
 
 ---
