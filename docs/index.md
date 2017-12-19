@@ -57,13 +57,18 @@ Our story now follows us to a clinic, in the not too distant future. The DAAD sc
   <caption align="bottom">Example of Anatomical Data</caption>
   <tr><td><img class="image" src = "img/anatomical.png"></td></tr>
 </table>
-After the preliminary glance, they apply the same preprocessing on the patient's fMRI data as done on the dataset obtained from PPMI in the background, the [boring details](https://github.com/sharbatc/ada2017hw/blob/master/project/final_project.ipynb) of which, you might care to look at.
+After the preliminary glance, they apply the same processing on the patient's fMRI data as done on the dataset obtained from PPMI in the background, the [boring details](https://github.com/sharbatc/ada2017hw/blob/master/project/final_project.ipynb) of which, you might care to look at. The processing involves using components
+
+And the DAAD scientist arrives at the time series of the patient's fMRI, the connectivity matrix of different areas of the brain and the layers of the CNN
 
 ---
 <a name="aquestion"></a>
 ## A Question
 ---
-If in the future, a DAAD scientist can predict with good probability from just the fMRI, about diseases, would you like to know about early onset of even diseases which are known to be terminal without any cure, or would you rather know about it or not
+If in the future, a DAAD scientist can predict with good probability from just the fMRI, about diseases, would you like to know about early onset of even diseases which are known to be terminal without any cure, or would you rather not?
+---
+_Food for thought..._
+---
 
 
 <!-- Uncomment the following to get blog posts, not needed for ADA -->
