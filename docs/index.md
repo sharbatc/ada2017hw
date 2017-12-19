@@ -1,7 +1,6 @@
 ---
 layout: page
-title: DAAD
-subtitle: Data Analysis Against Diseases
+title: Data Analysis Against Diseases
 use-site-title: true
 ---
 The human brain is possibly one of the most complex structures in the universe, as judged by some human brains. The past few years have seen a huge burst of [popularity](https://www.sciencedaily.com/releases/2017/04/170420093736.htm) in brain-related research. With regards to [fMRI](#fmri) based research since its discovery in the 1990s, showing correlations (_this is your brain on ..._) with what generally excites people ([sex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782579/), [food](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131727) and [politics](https://www.nature.com/articles/srep39589)) has captured the public imagination. This has led to [criticism](https://www.newyorker.com/news/news-desk/neuroscience-fiction) about whether such conclusions can be or should be drawn.
@@ -28,10 +27,8 @@ Functional magnetic resonance imaging ([fMRI](https://en.wikipedia.org/wiki/Func
 ### What is Parkinson's Disease?
 Parkinson's disease ([PD](https://en.wikipedia.org/wiki/Parkinson%27s_disease)) is a disease caused by a progressive dying of certain cells in the central nervous system responsible for producing a chemical called dopamine, used to allow brain cells to communicate with each other. Their loss produces great changes in the control of voluntary movements. So, patients start showing symptoms like rigidity, tremor (involuntary shaking) or general difficulties in movements. In advanced stages, behavioural problems like dementia also appear
 
-
-
-
-Early diagnosis
+### Why is it important to use Data Analysis?
+Data Analysis can help in _early diagnosis_ of PD. In general, PD can progress in a person without much external symptoms, till it is too late. So, it is important to
 Different regions of the brain typically activate together in what neuroscientists call "brain networks". Those networks are used to study brain architecture and function.
 Resting state fMRI allows to study the networks that are active when a person is at rest, not performing any particular task. Those networks are typically robust among subjects, while they are destroyed or disorganized as a consequence of several brain diseases, including Parkinson.
 Studying how Parkinson's disease affects neural networks could help understanding the mechanisms underlying the pathophysiology of the disorder, allowing early diagnosis and in particular evaluating treatments.
