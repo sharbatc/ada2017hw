@@ -4,15 +4,10 @@ title: DAAD
 subtitle: Data Analysis Against Diseases
 use-site-title: true
 ---
-The human brain is possibly one of the most complex structures in the universe,
-as judged by some human brains. The past few years have seen a huge burst of popularity
-of brain-related research. With the prevalence of fMRI research, showing correlations
-(_this is your brain on..._) with what generally excites people (sex, food and politics)
- has captured the public imagination. What is important however is
-manner.
-the public imagination.
+The human brain is possibly one of the most complex structures in the universe, as judged by some human brains. The past few years have seen a huge burst of [popularity](https://www.sciencedaily.com/releases/2017/04/170420093736.htm) in brain-related research. With regards to [fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging) based research since its discovery in the 1990s, showing correlations (_this is your brain on..._) with what generally excites people ([sex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782579/), [food](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131727) and [politics](https://www.nature.com/articles/srep39589)) has captured the public imagination. This has sometimes led to [criticism](https://www.newyorker.com/news/news-desk/neuroscience-fiction) about whether such conclusions can be or should be drawn. But what has not come too much into the public view is the use of fMRI to understand neurodegenerative diseases. 
 ## Introduction
 
+Functional magnetic resonance imaging (fMRI) measures neural activity indirectly via the changes in the blood-oxygenation-level-dependent (BOLD) signal. It has been widely used by cognitive neuroscientists and psychologists to examine the neural correlates of higher cognitive functions in humans, such as decision-making, emotion regulation, social interactions and consciousness.
 Parkinson's disease is caused by a progressive degeneration of certain neural cells of the central nervous systems which are responsible for dopamine production, a chemical used into the brain to allow communication between cells. The loss of dopaminergic function produces drastic changes in brain circuits involved in the execution of voluntary movements. As a consequence, patients slowly start to present motor symptoms such as tremor, rigidity or in general difficulties in movements. In advanced stages, dementia as well as other behavioural problems gradually take the upper hand.
 
 

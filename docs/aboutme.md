@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Team Neurovision
+title: Team DAAD
 subtitle: The three member powerhouse that powered DAAD
 ---
 
