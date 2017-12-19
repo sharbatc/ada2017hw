@@ -7,7 +7,7 @@ use-site-title: true
 The human brain is possibly one of the most complex structures in the universe, as judged by some human brains. The past few years have seen a huge burst of [popularity](https://www.sciencedaily.com/releases/2017/04/170420093736.htm) in brain-related research. With regards to [fMRI](#fmri) based research since its discovery in the 1990s, showing correlations (_this is your brain on ..._) with what generally excites people ([sex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782579/), [food](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131727) and [politics](https://www.nature.com/articles/srep39589)) has captured the public imagination. This has led to [criticism](https://www.newyorker.com/news/news-desk/neuroscience-fiction) about whether such conclusions can be or should be drawn.
 
 <table align="center">
-  <caption align="bottom">xkcd fMRI</caption>
+  <caption align="bottom"><a href="https://xkcd.com/1453/">xkcd jokes on fMRI and usefulness</a></caption>
   <tr><td><img class="image" src = "img/fmri.png"></td></tr>
 </table>
 
