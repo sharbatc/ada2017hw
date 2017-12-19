@@ -57,9 +57,21 @@ Our story now follows us to a clinic, in the not too distant future. The DAAD sc
   <caption align="bottom">Example of Anatomical Data</caption>
   <tr><td><img class="image" src = "img/anatomical.png"></td></tr>
 </table>
-After the preliminary glance, they apply the same processing on the patient's fMRI data as done on the dataset obtained from PPMI in the background, the [boring details](https://github.com/sharbatc/ada2017hw/blob/master/project/final_project.ipynb) of which, you might care to look at. The processing involves using components
+After the preliminary glance, they apply the same processing on the patient's fMRI data as done on the dataset obtained from PPMI in the background, the [boring details](https://github.com/sharbatc/ada2017hw/blob/master/project/final_project.ipynb) of which, you might care to look at. The processing involves using components extracted from the time series data (ICA), finding which brain areas
 
-And the DAAD scientist arrives at the time series of the patient's fMRI, the connectivity matrix of different areas of the brain and the layers of the CNN
+And the DAAD scientist arrives at the time series of the patient's fMRI, the connectivity matrix of different areas of the brain and the layers of the CNN, and compares with the following.
+<table align="center">
+  <caption align="bottom">Example of ICA time series PD</caption>
+  <tr><td><img class="image" src = "img/timecoursesPD.png"></td></tr>
+</table>
+<table align="center">
+  <caption align="bottom">Example of ICA time series Control</caption>
+  <tr><td><img class="image" src = "img/timecoursesControl.png"></td></tr>
+</table>
+<table align="center">
+  <caption align="bottom">Example of Anatomical Data</caption>
+  <tr><td><img class="image" src = "img/graphs.png"></td></tr>
+</table>
 
 ---
 <a name="aquestion"></a>
