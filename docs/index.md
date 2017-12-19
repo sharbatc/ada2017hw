@@ -73,11 +73,13 @@ And the DAAD scientist arrives at the time series of the patient's fMRI, the con
   <tr><td><img class="image" src = "img/graphs.png"></td></tr>
 </table>
 
+
 ---
 <a name="aquestion"></a>
 ## A Question
 ---
 If in the future, a DAAD scientist can predict with good probability from just the fMRI, about diseases, would you like to know about early onset of even diseases which are known to be terminal without any cure, or would you rather not?
+
 ---
 _Food for thought..._
 ---
