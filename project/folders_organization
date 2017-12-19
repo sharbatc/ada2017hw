@@ -1,0 +1,51 @@
+#Organize dataset 
+import os
+import gzip
+import shutil
+
+basedir = '/Volumes/myFatDrive/ada_project/workingdir/PPMI/'
+task= '/ep2d_RESTING_STATE/'
+
+for fn in os.listdir(basedir):
+    if fn[0]=='3' or fn[0]=='4':
+        print(fn)
+        cnt = 0
+        for fn2 in os.listdir(basedir+fn+task):
+            if fn2[0]=='2':
+                cnt+=1
+                print(fn2)
+                os.makedirs(basedir+fn+task+fn2+'/anat')
+                os.makedirs(basedir+fn+task+fn2+'/func')
+                os.rename(basedir+fn+task+fn2+'/anat.nii', basedir+fn+task+fn2+'/anat/anat.nii')
+                os.rename(basedir+fn+task+fn2+'/rest.nii', basedir+fn+task+fn2+'/func/rest.nii')
+                anat_file_nii = basedir+fn+task+fn2+'/anat/anat.nii'
+                anat_file_niigz = basedir+fn+task+fn2+'/anat/anat.nii.gz'
+                with open(anat_file_nii, 'rb') as f_in, gzip.open(anat_file_niigz, 'wb') as f_out:
+                    shutil.copyfileobj(f_in, f_out)
+                if cnt>1:
+                    shutil.move(basedir+fn+task+fn2, basedir+fn+'_'+str(cnt)+task+fn2
+                    
+                    
+for fn in os.listdir(basedir):
+    if fn[0]=='3' or fn[0]=='4':
+        print(fn)
+        cnt = 0
+        for fn2 in os.listdir(basedir+fn+task):
+            if fn2[0]=='2':
+                os.makedirs(basedir+fn+task+fn2+'/anat/zipped')
+                shutil.move(basedir+fn+task+fn2+'/anat/anat.nii.gz', basedir+fn+task+fn2+'/anat/zipped/anat.nii.gz')
+                shutil.move(basedir+fn+task+fn2+'/anat', basedir+fn+task)
+                shutil.move(basedir+fn+task+fn2+'/func', basedir+fn+task)
+     
+#Organize dataset 
+import os
+import gzip
+import shutil
+basedir = '/Volumes/myFatDrive/ada_project/workingdir/PPMI/'
+task= '/ep2d_RESTING_STATE/'
+for fn in os.listdir(basedir):
+    cnt = 0
+    for fn2 in os.listdir(basedir+fn+task):
+        cnt+=1
+    if (cnt<3):
+        print(fn,cnt)
