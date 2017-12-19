@@ -7,22 +7,19 @@ use-site-title: true
 The human brain is possibly one of the most complex structures in the universe, as judged by some human brains. The past few years have seen a huge burst of [popularity](https://www.sciencedaily.com/releases/2017/04/170420093736.htm) in brain-related research. With regards to [fMRI](#fmri) based research since its discovery in the 1990s, showing correlations (_this is your brain on ..._) with what generally excites people ([sex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4782579/), [food](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131727) and [politics](https://www.nature.com/articles/srep39589)) has captured the public imagination. This has led to [criticism](https://www.newyorker.com/news/news-desk/neuroscience-fiction) about whether such conclusions can be or should be drawn.
 
 <table align="center">
-  <caption align="bottom"><a href="https://xkcd.com/1453/">xkcd jokes on fMRI and usefulness</a></caption>
+  <caption align="bottom"><a href="https://xkcd.com/1453/">xkcd cracks a joke on fMRI</a></caption>
   <tr><td><img class="image" src = "img/fmri.png"></td></tr>
 </table>
 
-Unfortunately, what has not come too much into the public view is the use of fMRI to understand neurodegenerative diseases in a better way. There is ongoing research into finding early ways of distinguishing possible patients of [Alzhemier's disease](https://www.ncbi.nlm.nih.gov/pubmed/20541837), [schizophrenia](https://rd.springer.com/chapter/10.1007/978-3-319-02913-9_52) and [depression](https://peerj.com/preprints/412.pdf) and we aim to find out the
+Unfortunately, what has not come too much into the public view is the use of fMRI to understand neurodegenerative diseases in a better way. There is ongoing research into finding early ways of distinguishing patients suffering from  [Alzhemier's disease](https://www.ncbi.nlm.nih.gov/pubmed/20541837), [schizophrenia](https://rd.springer.com/chapter/10.1007/978-3-319-02913-9_52) and [depression](https://peerj.com/preprints/412.pdf). Here, we will focus on [Parkinson's Disease](#pd) (henceforth PD) and show how we can use Data Analysis to help in combating it.
 
 ### <a name="fmri"></a>What is fMRI?
 Functional magnetic resonance imaging ([fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging)) is a way to measure brain activity indirectly by using the fact that increase in activity in a region of the brain is often coupled with increase in blood flow to that region. It has been widely used by cognitive neuroscientists and psychologists to examine the neural correlates of higher cognitive functions in humans, such as decision-making, emotion regulation, social interactions and consciousness.
 
+#### <a name="pd"></a>What is Parkinson's Disease?
+Parkinson's disease ([PD](https://en.wikipedia.org/wiki/Parkinson%27s_disease)) is a disease caused by a progressive dying of certain cells in the central nervous system responsible for producing a chemical called dopamine, used to allow brain cells to communicate with each other. Their loss produces great changes in the control of voluntary movements. So, patients start showing symptoms like rigidity, tremor (involuntary shaking) or general difficulties in movements. In advanced stages, behavioural problems like dementia also appear
+
 ####
-
-## Introduction
-
-Functional magnetic resonance imaging (fMRI) measures neural activity indirectly via the changes in the blood-oxygenation-level-dependent (BOLD) signal. It has been widely used by cognitive neuroscientists and psychologists to examine the neural correlates of higher cognitive functions in humans, such as decision-making, emotion regulation, social interactions and consciousness.
-Parkinson's disease is caused by a progressive degeneration of certain neural cells of the central nervous systems which are responsible for dopamine production, a chemical used into the brain to allow communication between cells. The loss of dopaminergic function produces drastic changes in brain circuits involved in the execution of voluntary movements. As a consequence, patients slowly start to present motor symptoms such as tremor, rigidity or in general difficulties in movements. In advanced stages, dementia as well as other behavioural problems gradually take the upper hand.
-
 
 Early diagnosis
 Different regions of the brain typically activate together in what neuroscientists call "brain networks". Those networks are used to study brain architecture and function.
