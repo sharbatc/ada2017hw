@@ -54,3 +54,5 @@ We want to construct a connectivity matrix by computing the correlation among ea
 Once the connectivity matrix has been computed, we will try different classification algorithms. For example, we plan to use SVMs with a suitable kernel to allow for proper classification.
 
 Furthermore, we would like to try a second approach based on Convolutional Neural Networks of the time courses. We believe that the [architecture of the CNN](http://cs231n.github.io/convolutional-networks/) is going to be useful for understanding the images and trying to classify them. The neural inspired architecture is suitable for running on the dataset for fMRI images. We aim to find out features which might serve as markers for future research.
+
+# Milestone 3
