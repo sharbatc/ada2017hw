@@ -17,8 +17,9 @@ Unfortunately, what has not come too much into the public view is the use of fMR
 * [What is fMRI?](#fmri)
 * [What is Parkinson Disease?](#pd)
 
+---
 ## The Science
-
+---
 <a name="fmri"></a>
 ### What is fMRI?
 Functional magnetic resonance imaging ([fMRI](https://en.wikipedia.org/wiki/Functional_magnetic_resonance_imaging)) is a way to measure brain activity indirectly by using the fact that increase in activity in a region of the brain is often coupled with increase in blood flow to that region. It has been widely used by cognitive neuroscientists and psychologists to examine the neural correlates of higher cognitive functions in humans, such as decision-making, emotion regulation, social interactions and consciousness.
@@ -32,7 +33,9 @@ Data Analysis can help in understanding the _mechanisms_ underlying the pathophy
 
 Different regions of the brain typically activate together in what neuroscientists call "brain networks". Those networks are used to study brain architecture and function. Resting state fMRI allows to study the networks that are active when a person is at rest, not performing any particular task. Those networks are typically robust among subjects, while they are destroyed or disorganized as a consequence of several brain diseases, like PD. We can analyze the fMRI data to find out the differences between the networks.
 
+---
 ### The Dataset
+---
 The [Parkinson's Progression Markers Initiative (PPMI) dataset](http://www.ppmi-info.org/) includes different types of biological data available to the scientific community, included advanced imaging data such as rs-fMRI and anatomical imaging. From the PPMI website it is possible to download the data for each type of imaging already divided in folders corresponding to each patient. The data is anonymised. In particular we are interested to access to anatomical and resting-state-fMRI data. It is necessary to apply for accessing the data. Since we have already been using it, we have already the access to the data, but we would make a new access request with a new proposed analysis specific to this project.
 The processing pipeline could be applied, for example following the processing stream proposed by the [openfMRI project](https://openfmri.org/data-processing-stream/) and also [here](https://github.com/poldrack/openfmri)
 
