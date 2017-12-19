@@ -9,8 +9,7 @@ use-site-title: true
 
 ## Dataset
 
-![](img/avatar-icon.png)
-<img src="img/epfl_logo.svg">
+
 <!-- Uncomment the following to get blog posts, not needed for ADA -->
 
 <!-- <div class="posts-list">

@@ -307,6 +307,8 @@ footer .theme-by {
 }
 footer .epfl_logo {
   text-align: center;
+  width: 90px;
+  height: 43px;
 }
 
 @media only screen and (min-width: 768px) {
