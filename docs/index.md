@@ -4,9 +4,30 @@ title: DAAD
 subtitle: Data Analysis Against Diseases
 use-site-title: true
 ---
-
+The human brain is possibly one of the most complex structures in the universe,
+as judged by some human brains. The past few years have seen a huge burst of popularity
+of brain-related research. With the prevalence of fMRI research, showing correlations
+(_this is your brain on..._) with what generally excites people (sex, food and politics)
+ has captured the public imagination. What is important however is 
+manner.
+the public imagination.
 ## Introduction
+#Introduction
 
+Parkinson's disease is caused by a progressive degeneration of certain neural cells of the central nervous systems which are responsible for dopamine production, a chemical used into the brain to allow communication between cells. The loss of dopaminergic function produces drastic changes in brain circuits involved in the execution of voluntary movements. As a consequence, patients slowly start to present motor symptoms such as tremor, rigidity or in general difficulties in movements. In advanced stages, dementia as well as other behavioural problems gradually take the upper hand.
+
+
+Early diagnosis
+Different regions of the brain typically activate together in what neuroscientists call "brain networks". Those networks are used to study brain architecture and function.
+Resting state fMRI allows to study the networks that are active when a person is at rest, not performing any particular task. Those networks are typically robust among subjects, while they are destroyed or disorganized as a consequence of several brain diseases, including Parkinson.
+Studying how Parkinson's disease affects neural networks could help understanding the mechanisms underlying the pathophysiology of the disorder, allowing early diagnosis and in particular evaluating treatments.
+Study the consequences of dopamine loss on the functions of the brain.
+
+
+
+# Dataset
+One of the missions of the Parkinson's progression markers initiative is to collect advanced imaging data in order to identify
+ biomarkers for the evaluation of the disease.
 ## Dataset
 
 
